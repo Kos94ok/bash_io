@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mainTextColor" format="color|reference" />
+    <attr name="supportTextColor" format="color|reference" />
+    <attr name="backgroundColor" format="color|reference" />
+    <attr name="quoteBackground" format="color|reference" />
+    <attr name="drawerListColor" format="color|reference" />
+    <attr name="drawerListButtonTextColor" format="color|reference" />
+    <attr name="headerColor" format="color|reference" />
+    <attr name="headerTextColor" format="color|reference" />
+    <attr name="separatorColor" format="color|reference" />
+    <attr name="scrollBarStyle" format="reference" />
+</resources>

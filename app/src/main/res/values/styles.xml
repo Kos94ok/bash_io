@@ -1,0 +1,120 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainThemeLight" parent="Theme.AppCompat">
+        <item name="colorPrimaryDark">@android:color/black</item>
+
+        <item name="mainTextColor">@android:color/black</item>
+        <item name="supportTextColor">#22F</item>
+        <item name="quoteBackground">#FAFAFA</item>
+        <item name="backgroundColor">#F5F5F5</item>
+        <item name="drawerListColor">#111</item>
+        <item name="drawerListButtonTextColor">#F0F0F0</item>
+        <item name="headerColor">#650000FF</item>
+        <item name="headerTextColor">@android:color/white</item>
+        <item name="separatorColor">@android:color/black</item>
+        <item name="colorControlHighlight">#30AAAAAA</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_dark</item>
+    </style>
+
+    <style name="MainThemeDark" parent="Theme.AppCompat">
+        <item name="mainTextColor">#FFF</item>
+        <item name="supportTextColor">#BBB</item>
+        <item name="quoteBackground">#323232</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="drawerListColor">#000</item>
+        <item name="drawerListButtonTextColor">#F0F0F0</item>
+        <item name="headerColor">#BBB</item>
+        <item name="headerTextColor">@android:color/black</item>
+        <item name="separatorColor">@android:color/white</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_light</item>
+    </style>
+
+    <style name="MainThemeGreen" parent="Theme.AppCompat">
+        <item name="colorPrimary">#7cb342</item>
+        <item name="colorPrimaryDark">#33691e</item>
+        <item name="colorAccent">?colorPrimaryDark</item>
+
+        <item name="mainTextColor">#FFF</item>
+        <item name="supportTextColor">?colorPrimaryDark</item>
+        <item name="quoteBackground">#323232</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="drawerListColor">#010</item>
+        <item name="drawerListButtonTextColor">#F0F0F0</item>
+        <item name="headerColor">?colorPrimaryDark</item>
+        <item name="headerTextColor">@android:color/white</item>
+        <item name="separatorColor">?colorPrimary</item>
+        <item name="colorControlHighlight">#3000FF00</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_light</item>
+    </style>
+
+    <style name="MainThemePink" parent="Theme.AppCompat">
+        <item name="colorPrimary">#f8bbd0</item>
+        <item name="colorPrimaryDark">#c2185b</item>
+        <item name="colorAccent">?colorPrimaryDark</item>
+
+        <item name="mainTextColor">@android:color/black</item>
+        <item name="supportTextColor">?colorPrimaryDark</item>
+        <item name="quoteBackground">#FAFAFA</item>
+        <item name="backgroundColor">#F5F5F5</item>
+        <item name="drawerListColor">#220519</item>
+        <item name="drawerListButtonTextColor">#F0F0F0</item>
+        <item name="headerColor">?colorPrimaryDark</item>
+        <item name="headerTextColor">@android:color/white</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="separatorColor">#f06292</item>
+        <item name="colorControlHighlight">#30AAAAAA</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_dark</item>
+    </style>
+
+    <style name="MainThemePinkDark" parent="MainThemePink">
+        <item name="colorPrimary">#f06292</item>
+        <item name="colorPrimaryDark">#d81b60</item>
+        <item name="colorAccent">?colorPrimaryDark</item>
+
+        <item name="mainTextColor">#FFF</item>
+        <item name="supportTextColor">#f8bbd0</item>
+        <item name="quoteBackground">#323232</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="headerTextColor">@android:color/white</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_light</item>
+    </style>
+
+    <style name="MainThemeLight_MainActivity" parent="MainThemeLight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MainThemeDark_MainActivity" parent="MainThemeDark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MainThemeGreen_MainActivity" parent="MainThemeGreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MainThemePink_MainActivity" parent="MainThemePink">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MainThemePinkDark_MainActivity" parent="MainThemePinkDark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
